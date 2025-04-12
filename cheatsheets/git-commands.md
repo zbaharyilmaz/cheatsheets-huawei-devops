@@ -1,4 +1,4 @@
-# 🐙 Git Türkçe Komut Rehberi (Cheatsheet)
+# 🐙 Git Komut Rehberi (Cheatsheet)
 
 ## 📦 Temel Komutlar
 | Komut | Açıklama |
