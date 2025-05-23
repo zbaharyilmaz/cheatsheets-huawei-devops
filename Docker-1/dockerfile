@@ -1,0 +1,5 @@
+FROM node:21-alpine3.18    
+WORKDIR /app
+# COPY hello.js /app yerine herşeyin kopyalanması için aşağıdaki komutu kullan.
+COPY . .
+CMD ["node", "hello.js"]
