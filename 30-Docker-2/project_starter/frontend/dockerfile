@@ -1,0 +1,13 @@
+FROM node:current-alpine3.21
+
+WORKDIR /frontend
+
+COPY . . 
+
+
+RUN npm i -g pnpm
+RUN pnpm i
+
+CMD ["pnpm", "start"]
+
+EXPOSE 5173

@@ -24,5 +24,7 @@
     "redoc-express": "^2.1.0",
     "swagger-autogen": "^2.23.6",
     "swagger-ui-express": "^5.0.0"
-  }
+  },
+  "devDependencies": {},
+  "type": "commonjs"
 }
