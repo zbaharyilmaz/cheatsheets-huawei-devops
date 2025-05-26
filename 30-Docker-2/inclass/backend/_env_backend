@@ -1,0 +1,15 @@
+NODE_ENV=development
+
+HOST=127.0.0.1
+PORT=8000
+
+# MONGODB=mongodb://127.0.0.1:27017/stockAPI
+# use 'host.docker.internal', instead of 'localhost' for local-address from docket-container
+MONGODB=mongodb://host.docker.internal:27017/stockAPI
+# MONGODB=mongodb+srv://qadir:uKcF6V6InKg75w9q@cluster0.um9yyhm.mongodb.net/stockAPI
+
+SECRET_KEY=a7db7ashd7ashd7ahsd7ashd7ashd7hasd7g2367f4e219er
+ACCESS_KEY=asıda87shd7ahsdh7as7dhas7dh7sadhas7dha7sdha7sdhas
+REFRESH_KEY=ijasd8ahsd8jhas8dha8sd8asdh8ashd8ashd8ahsd*ds9d9f
+
+PAGE_SIZE=25
