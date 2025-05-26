@@ -208,3 +208,20 @@ services:
 
 
 ````
+
+# COMMANDS USED THIS PART
+
+# backend
+* docker build . -t backend
+* docker run --name backend -p 8000:8000
+* docker run --name backendcontainer -p 8000:8000 backend
+# frontend
+* docker build . -t frontend
+* docker run --name frontendcontainer -p 5173:5173 frontend
+
+
+* docker rm -f frontendcontainer
+
+docker run --name stockappfrontendcontainer -p 5173:5173 mudlond/stockappfrontend
+
+ docker run --name stockappbackendcontainer -p 8000:8000 mudlond/stockappbackend
